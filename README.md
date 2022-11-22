@@ -1,5 +1,5 @@
 # pum_gcp
-create table before run df2bq.py
+create table before running df2bq.py
 
 - Create A BigQuery Dataset and Table
 Just like the Cloud Storage bucket, creating a BigQuery dataset and table is very simple. Just remember that you first create a dataset, then create a table. 
