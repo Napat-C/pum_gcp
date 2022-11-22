@@ -21,6 +21,7 @@ def get_dustboy_url():
     link_data.columns = ['URL']
     return link_data
 
+## parse df that cotain url for download data
 def get_dustboy_historical_data(link):
     final_data = pd.DataFrame()
     for url in link['URL']:
