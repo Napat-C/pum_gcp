@@ -1,5 +1,6 @@
 # pum_gcp
-learning how to use GCP with Python
+create table before run df2bq.py
+
 - Create A BigQuery Dataset and Table
 Just like the Cloud Storage bucket, creating a BigQuery dataset and table is very simple. Just remember that you first create a dataset, then create a table. 
 When you create your BigQuery table, you’ll need to create a schema with the following fields. These BigQuery fields match the fields in the Thailand air quality json API’s header.
